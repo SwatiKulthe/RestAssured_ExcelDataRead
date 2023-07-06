@@ -1,0 +1,19 @@
+This project is created to automate all type of APIs(Saop and Rest) prilmarily using JsonPath, RestAssured,ApachePOI,TestNg and Allure(For user friendly reports)
+
+Features of this Projects are as below:
+> This project is capable to automate exection and validation 
+	>Rest API(Methods) : Get,Post,Put,Patch and Delete
+	>Soap API(Methods) : Get,Post
+
+> User can also construct the request body using parameters fed from an excel file, I have created an Common utility using ApachePOI to read data from excel.
+
+>This project is build on the concepts of data driven and keyword driven.
+	>I have divided the project into 4 packages which mention below
+		1)Request Repository
+		2)Common utility method
+		3)Test Cases
+		4)Driver Class(dyanamic Driver Class)
+
+>The test execution is driven by static
+
+>The project is capable enoght of saving the evidences of the execution into text file which contains details of request send ,end points,response received.
